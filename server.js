@@ -1,11 +1,11 @@
-var express = require('express');
-var morgan = require('morgan');
+var express = require('express'); //importing library
+var morgan = require('morgan');   //importing library
 var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
 
-app.get('/', function (req, res) {
+app.get('/', function (req, res) {                         //when url '/' is selected/requested then function is ececuted 
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
