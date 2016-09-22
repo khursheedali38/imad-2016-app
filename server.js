@@ -10,7 +10,7 @@ app.get('/', function (req, res) {                         //when url '/' is sel
 });
 
 app.get('/article-one',function(req, res){
-    res.sendFile("Hello everyone!!!!!!Addressing first article");
+    res.send("Hello everyone!!!!!!Addressing first article");
 }) ;
 
 app.get('/article-two',function(req, res){
@@ -22,7 +22,7 @@ app.get('/article-three',function(req, res){
 }) ;
 
 app.get('/ui/style.css', function (req, res) {
-  res.send(path.join(__dirname, 'ui', 'style.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
