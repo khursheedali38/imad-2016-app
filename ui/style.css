@@ -1,8 +1,11 @@
+
 body {
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 75px;
 }
+
+
 
 .center {
     text-align: center;
@@ -20,3 +23,13 @@ body {
     height: 200px;
 }
 
+.container{
+    max-width: 800px;
+    margin: auto;
+    color: #607D8B;
+    font-family: san-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+
+}

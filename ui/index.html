@@ -4,14 +4,36 @@
         <link href="/ui/style.css" rel="stylesheet" />
     </head>
     <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
-        </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am Khursheed Ali and this is my first webapp.
-           <h4>A new era of Unified Communication</h4>
-        </div>
+      <div class = "container">
+	        <div class="center">
+	            <img src="/ui/madi.png" class="img-medium"/>
+	        </div>
+	        <hr/>
+	        <div class="personal">
+	            Name: Imad Dragon <br>
+	            Gender: Male <br>
+	            Date of Birth : 24-oct-1996
+	        </div>
+	        <hr/>
+	        <div class = "Professional">
+	        	Desgnation: Manager <br>
+	        	Experience: <ol>
+	        		<li>Adobe systems</li>
+	        		<li>MAQ softwares</li>
+	        		<li>Interns @ KFUPM</li>
+	        	</ol><br>
+	        	Certs: CCENT, MCSA, MCP
+	        </div>
+	        <hr/>
+	        <div class = "footer">
+	        	YOu Want count.....yeah!!!Then <button id = "counter">Click me</button>: The count is <span id="count">0</span> 
+	        	<hr/>
+	        	<input type = "text" id = "name" placeholder="Name"></input>
+	        	<input type = "submit" id = "submit_btn" value = "Submit"></input>
+	        	<ol id = "nameList">
+	        	</ol>
+	        </div>
+       </div>
         <script type="text/javascript" src="/ui/main.js">
         </script>
     </body>
